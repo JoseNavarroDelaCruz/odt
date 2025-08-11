@@ -1,0 +1,16 @@
+  1) mpi/openmpi/4.1.1
+Environment set up for optimal_decision_tree project
+Julia:  /home/n/navarrodelacruz/odt/local_installs/julia-1.7.2/bin/julia
+MPI:    /apps/openmpi/4.1.1-ucx/bin/mpirun   (mpiexec: /apps/openmpi/4.1.1-ucx/bin/mpiexec)
+CPLEX:  /home/n/navarrodelacruz/odt/local_installs/cplex2010
+WD:     /home/n/navarrodelacruz/odt/optimal_decision_tree
+mpirun (Open MPI) 4.1.1
+Open MPI v4.1.1
+=== Runtime ================================================
+Array task     : 1
+Dataset        : /home/n/navarrodelacruz/odt/optimal_decision_tree/augmented_datasets/glass/glass_1.glass
+Family outdir  : /home/n/navarrodelacruz/odt/optimal_decision_tree/outputs/glass
+Program log    : /home/n/navarrodelacruz/odt/optimal_decision_tree/outputs/glass/info-glass_1.glass-sd1-2-CMS-6.out
+SLURM logs     : /home/n/navarrodelacruz/odt/optimal_decision_tree/outputs/job_logs/%x-%A_%a.(out|err)
+============================================================
+>>> Finished: /home/n/navarrodelacruz/odt/optimal_decision_tree/augmented_datasets/glass/glass_1.glass (seed 1) ? /home/n/navarrodelacruz/odt/optimal_decision_tree/outputs/glass/info-glass_1.glass-sd1-2-CMS-6.out

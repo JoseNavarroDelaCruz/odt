@@ -1,0 +1,28 @@
+[deps]
+CPLEX = "a076750e-1247-5638-91d2-ce28b192dca0"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
+Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DecisionTree = "7806a523-6efd-50cb-b5f6-3fa6f1930dbb"
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+Luxor = "ae8d54c2-7ccd-5906-9d76-62fc9837b5bc"
+MLDataUtils = "cc2ba9b6-d476-5e6d-8eaf-a92d5412d41d"
+MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
+MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+RDatasets = "ce6b1742-4840-55fa-b093-852dadbb1d8b"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+[preferences.MPIPreferences]
+__clear__ = ["preloads_env_switch"]
+_format = "1.0"
+abi = "OpenMPI"
+binary = "system"
+cclibs = []
+libmpi = "/apps/openmpi/4.1.1-ucx/lib/libmpi"
+mpiexec = "/apps/openmpi/4.1.1-ucx/bin/mpiexec"
+preloads = []
