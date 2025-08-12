@@ -5,7 +5,7 @@ import pandas as pd
 # Define the source directory
 if os.getenv("SLURM_JOB_ID"):
     # HPC environment
-    data_dir = os.path.join(os.environ["HOME_REPO"], "optimal_decision_tree", "data")
+    data_dir = os.path.join(os.environ["HOME_REPO"], "odt", "data")
 else:
     # Local machine (customize for your actual path)
     data_dir = r"C:\Users\navarrodelacruz\Documents\GitHub\odt\data"
@@ -24,7 +24,7 @@ noise_std_dev = 0.05   # Standard deviation for Gaussian noise
 removal_fraction = 0.02  # Fraction of rows to remove per iteration
 
 # Choose which files to include (by substring match)
-filter_names = ["pendigits"]  # <-- Edit this list to match desired datasets
+filter_names = ["glass"]  # <-- Edit this list to match desired datasets
 
 # Get list of files in the data directory that match one of the substrings
 all_files = [
